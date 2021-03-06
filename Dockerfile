@@ -5,6 +5,8 @@ WORKDIR /usr/share/nginx
 RUN rm -rf /usr/share/nginx/html
 COPY . /usr/share/nginx
 
+RUN apt-get update && apt-get install -y curl
+
 RUN curl -sS https://getcomposer.org/installer | php && \
     mv composer.phar /usr/local/bin/composer && \
     composer install && \
