@@ -11,4 +11,4 @@ $age = new \App\Age($date, $today);
 
 ?>
 
-Minha idade é: <?php $age; ?>
+Minha idade é: <?= $age->calculate(); ?>

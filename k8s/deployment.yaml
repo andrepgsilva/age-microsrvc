@@ -17,7 +17,7 @@ spec:
         tier: webserver
     spec:
       containers:
-      - image: gcr.io/microservices-306818/age-microsrvc@sha256:c896c823ad1637a7f676ded0b66c0f7f99af88cff7f55ad31143bcdfea090c04
+      - image: gcr.io/microservices-306818/age-microsrvc@sha256:e3bff9440093e8ff53deaccdca6c7b8526e98ffad8ddb6b3224a6d7c6c6df441
         name: nginx-php
         ports:
         - containerPort: 80
