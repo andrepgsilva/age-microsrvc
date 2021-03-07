@@ -14,6 +14,6 @@ class AgeTest extends TestCase
 
         $age = new \App\Age($dateOfBirth, $today);
 
-        $this->assertEquals($age->calculate(), 37);
+        $this->assertEquals($age->calculate(), 36);
     }
 }
